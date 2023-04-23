@@ -1,3 +1,5 @@
+#Working with files in Python
+
 #Opening up the file
 fhandler = open('poems.txt')
 print(fhandler)
@@ -21,6 +23,8 @@ fout = open('output.txt', 'w')
 line1 = "Putting in a line of text,\n"
 fout.write(line1)
 fout.close()
+
+
 
 
 
