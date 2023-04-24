@@ -108,19 +108,38 @@ fout.close()
 
 #writing and reading a list to a text file
 
-names = ["Sophia", "Python"]
-fout = open('names.txt', 'w')
-for m in names:
-  fout.write(m + "\n")
+#names = ["Sophia", "Python"]
+#fout = open('names.txt', 'w')
+#for m in names:
+#  fout.write(m + "\n")
 
-fout.close()
+#fout.close()
 
-names = []
-fin = open('names.txt', 'r')
-for line in fin:
-  line = line.replace("\n", "")
-  names.append(line)
-print(names)
+#names = []
+#fin = open('names.txt', 'r')
+#for line in fin:
+#  line = line.replace("\n", "")
+#  names.append(line)
+#print(names)
+
+#Writing and reading integers to a file
+
+#years = [1975, 1979, 1983]
+#fout = open('years.txt', 'w')
+#for year in years:
+#  fout.write(str(year) + "\n")
+#fout.close()
+
+#years = []
+#fin = open('years.txt', 'r')
+#for line in fin:
+#  line = line.replace("\n", "")
+#  years.append(int(line))
+#print(years)
+
+#Removing files 
+import os
+os.remove("years.txt")
 
 
 
